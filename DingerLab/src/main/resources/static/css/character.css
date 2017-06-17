@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+
+html,body{
+	width : 100%;
+	height : auto;
+}
+
+header{
+	text-align: center;
+}
+
+header>a{
+	color : black;
+}
+
+
+#category-list>li:NTH-CHILD(2n)>a {
+	color : black;
+}
+
+#category-list>li>a,
+#category-list>li:NTH-CHILD(4n)>a,
+#category-list>li:NTH-CHILD(6n)>a{
+	color : rgba(0,0,0,0.5);
+}
+
+#small-category-list{
+	display : block;
+}
+#small-category-list>li{
+	color : rgba(0,0,0,0.5);
+}
+
+#small-category-list>li:FIRST-CHILD{
+	width : calc(100%/6);
+	margin-left : calc(100%/6);
+	color : black;
+}
+
+section{
+	width : 80%;
+	max-height : 1000px;
+	height : auto;
+	
+	margin : 0 auto;
+	padding-top: 180px;
+}
+
+#grid-section{
+	width : 100%;
+	height : auto;
+}
+
+#grid-section>li{
+	width : calc(100%/3.2);
+	height : auto;
+	
+	list-style: none;
+	display : inline-block;
+	margin-top : 30px;
+}
+
+#grid-section>li:HOVER{
+	border : 0.5px solid rgba(0,0,0,0.4);
+	border-radius : 30px;
+	cursor : pointer;
+}
+
+.grid-cell{
+	width : 80%;
+	height : 100%;
+	margin : 0 auto;
+}
+
+h3{
+	text-align: center;
+}
+
+.character-image{
+	width : 80%;
+	height : auto;
+	border-radius : 30px;
+	display : block;
+	margin : 0 auto;
+}
+
+.description{
+	width : 100%;
+	height : auto;
+	margin-top : 20px;
+	margin-bottom : 20px;
+	font-size : 15px;
+	line-height : 20px;
+}

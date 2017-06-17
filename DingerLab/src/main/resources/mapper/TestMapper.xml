@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.kr.dingerlab.mapper.TestMapper">
+	<select id="findTest" resultType="com.kr.dingerlab.model.TestModel">
+		SELECT * FROM simple_comment 
+		<where>
+			sId = 3;
+		</where>
+	</select>
+</mapper>
