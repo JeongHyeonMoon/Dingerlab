@@ -4,10 +4,10 @@
 <div id="category">
 	<ul id="category-list">
 		<li>
-			<a href="/about">About us</a>
+			<a href="./about">About us</a>
 		</li>
 		<li>
-			<a href="/character">Character</a>
+			<a href="./character">Character</a>
 		</li>
 		<li>
 			<a href="#">Market</a>
