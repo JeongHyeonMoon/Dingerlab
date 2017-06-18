@@ -12,7 +12,7 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/header.js"></script>
 	
-	<link type="text/css" rel="stylesheet" href="/css/character.css">
+	<link type="text/css" rel="stylesheet" href="css/character.css">
 	<script type="text/javascript" src="js/character.js"></script>
 	
 	<title>Dinger Lab</title>
