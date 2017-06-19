@@ -6,10 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class DingerLabMainController {
-	
-	
+
 	private static final String ABOUT_LIST[] = 
-		{"Dinger's Lab", "Product", "Collection", "Education"};
+		{"Dinger's Lab", "Product", "Collaboration", "Education", "Awards"};
 	private static final String CHARACTER_LIST[] =
 		{"Magi", "Assi", "Poli", "Chefu", "etc"};
 
