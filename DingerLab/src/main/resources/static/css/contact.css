@@ -1,0 +1,62 @@
+@CHARSET "UTF-8";
+
+html,body{
+	width : 100%;
+	height : auto;
+}
+
+header{
+	text-align: center;
+}
+
+header>a{
+	color : black;
+}
+
+#category-list>li>a{
+	color : rgba(0,0,0,0.5);
+}
+
+#category-list>li:NTH-CHILD(6n)>a {
+	color : black;
+}
+
+section{
+	width : 80%;
+	max-width: 1000px;
+	height : auto;
+	
+	margin: 0 auto;
+	padding-top : 180px;
+	margin-bottom : 40px;
+}
+
+h3{
+	text-align: center;
+	margin-bottom : 30px;
+}
+
+section>div{
+	width : 100%;
+	height : auto;
+	margin-bottom : 20px;
+}
+
+section>div>img{
+	width : 100%;
+	height : auto;
+}
+
+#contact-description{
+	width : 100%;
+	height : auto;
+	
+	line-height: 25px;
+	
+}
+
+#contact-description>strong{
+	font-size: 22px;
+	line-height : 35px;
+	margin-bottom : 
+}

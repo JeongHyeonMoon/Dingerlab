@@ -2,6 +2,10 @@ $(document).ready(function(){
 	
 	fitMiddle($('header>a').width()*1);
 	
+	$('#video-section').css({
+		height : $(window).height()
+	});
+	
 	$(window).on('scroll', function(){
 		var pos = $(this).scrollTop();
 		var videoSectionHeight = $('#video-section').height();

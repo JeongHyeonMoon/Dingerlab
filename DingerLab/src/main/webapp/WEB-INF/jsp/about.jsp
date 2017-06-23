@@ -8,6 +8,8 @@
 	<link type="text/css" rel="stylesheet" href="webjars/normalize.css/7.0.0/normalize.css">
 	<link type="text/css" rel="stylesheet" href="css/header.css">
 	<link type="text/css" rel="stylesheet" href="css/category.css">
+	<link type="text/css" rel="stylesheet" href="css/footer.css">
+	
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/header.js"></script>
 	
@@ -20,7 +22,7 @@
 	<script type="text/javascript" src="js/about.js"></script>
 	<meta charset="UTF-8">
 	
-	<title>Dinger Lab</title>
+	<title>Dinger's Lab</title>
 </head>
 <body>
 	<jsp:include page="header.jsp"></jsp:include>
@@ -149,5 +151,6 @@
 			</article>
 		</article>
 	</section>
+	<jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>

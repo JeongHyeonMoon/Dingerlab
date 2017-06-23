@@ -8,13 +8,14 @@
 	<link type="text/css" rel="stylesheet" href="css/header.css">
 	<link type="text/css" rel="stylesheet" href="css/index.css">
 	<link type="text/css" rel="stylesheet" href="css/category.css">
+	<link type="text/css" rel="stylesheet" href="css/footer.css">
 	<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/header.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
 	<meta charset="UTF-8">
-	<title>Dinger Lab</title>
+	<title>Dinger's Lab</title>
 </head>
 <body>
 	<jsp:include page="header.jsp"></jsp:include>
@@ -31,9 +32,8 @@
 					<i id="icon" class="fa fa-angle-down" onclick="scrollMove();" ></i>
 				</div>
 			</div>
-			
 		</div>
 	</div>
-	
+	<jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>

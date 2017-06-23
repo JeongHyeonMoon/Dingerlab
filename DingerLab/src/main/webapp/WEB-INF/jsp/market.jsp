@@ -11,11 +11,37 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="/js/header.js"></script>
 	
-	
-	
-	<title>Dinger Lab</title>
+	<link type="text/css" rel="stylesheet" href="/css/market.css">
+	<link type="text/css" rel="stylesheet" href="/css/footer.css">
+	<title>Dinger's Lab</title>
 </head>
 <body>
-
+	<jsp:include page="header.jsp"></jsp:include>
+	<jsp:include page="category.jsp"></jsp:include>
+	
+	<section>
+		<ul id="grid-section">
+			<li>
+				<div class="grid-cell">
+					<h3>Ationery</h3>
+					<img class="market-thumnail" alt="" src="images/character/magi.png">
+					<div class="description">
+						요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="grid-cell">
+					<h3>DDP</h3>
+					<img class="market-thumnail" alt="" src="images/character/magi.png">
+					<div class="description">
+						요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약
+					</div>
+				</div>
+			</li>
+		</ul>
+	</section>
+	
+	<jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>

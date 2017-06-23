@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+
+html,body{
+	width : 100%;
+	height : auto;
+}
+
+header{
+	text-align: center;
+}
+
+header>a{
+	color : black;
+}
+
+#category-list>li>a{
+	color : rgba(0,0,0,0.5);
+}
+
+#category-list>li:NTH-CHILD(4n)>a {
+	color : black;
+}
+
+#small-category-list{
+	display : block;
+}
+
+#small-category-list>li{
+	color : rgba(0,0,0,0.5);
+}
+
+#small-category-list>li:FIRST-CHILD{
+	width : calc(100%/6);
+	margin-left : calc(100%/6*3);
+	color : black;
+}
+
+section{
+	width : 80%;
+	max-width : 1000px;
+	height : auto;
+	margin : 0 auto;
+	padding-bottom : 100px;
+}
+
+.first-section{
+	padding-top : 180px !important;
+}
+
+h3{
+	text-align: center;
+	margin-bottom : 25px;
+}
+
+.swiper-wrapper{
+	width : calc(100%/3);
+	height : auto;
+}
+
+.swiper-slide>img{
+	width : 100%;
+	height : auto;
+}

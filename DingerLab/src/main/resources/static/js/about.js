@@ -8,13 +8,13 @@ $(document).ready(function(){
 		pagination : '.swiper-pagination',
 		paginationClickable : true,
 		
-		prevButton : 'swiper-button-prev',
+		prevButton : '.swiper-button-prev',
 		nextButton : '.swiper-button-next',
 		
 		spaceBetween : 30,
 		
 		autoplay : 3000,
-		autoplayDisableOnInteraction : true
+		loop : true
 	});
 	
 });

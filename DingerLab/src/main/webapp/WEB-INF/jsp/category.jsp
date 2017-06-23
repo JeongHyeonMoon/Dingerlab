@@ -10,16 +10,16 @@
 			<a href="./character">Character</a>
 		</li>
 		<li>
-			<a href="#">Market</a>
+			<a href="./market">Market</a>
 		</li>
 		<li>
-			<a href="#">Media</a>
+			<a href="./media">Media</a>
 		</li>
 		<li>
-			<a href="#">Event</a>
+			<a href="./event">Event</a>
 		</li>
 		<li>
-			<a href="#">Contact</a>
+			<a href="./contact">Contact</a>
 		</li>
 	</ul>
 	

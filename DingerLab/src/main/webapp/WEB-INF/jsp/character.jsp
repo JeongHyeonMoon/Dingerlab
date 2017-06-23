@@ -9,19 +9,21 @@
 	<link type="text/css" rel="stylesheet" href="webjars/normalize.css/7.0.0/normalize.css">
 	<link type="text/css" rel="stylesheet" href="css/header.css">
 	<link type="text/css" rel="stylesheet" href="css/category.css">
+	<link type="text/css" rel="stylesheet" href="css/footer.css">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/header.js"></script>
 	
 	<link type="text/css" rel="stylesheet" href="css/character.css">
 	<script type="text/javascript" src="js/character.js"></script>
 	
-	<title>Dinger Lab</title>
+	<title>Dinger's Lab</title>
 </head>
 <body>
 	<jsp:include page="header.jsp"></jsp:include>
 	<jsp:include page="category.jsp"></jsp:include>
 	
 	<section>
+		<h3>Character</h3>
 		<ul id="grid-section">
 			<li>
 				<div class="grid-cell">
@@ -73,5 +75,6 @@
 		</ul>
 	</section>
 	
+	<jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>
