@@ -20,7 +20,3 @@ $(document).ready(function(){
 		loop : true
     });
 });
-
-function moveToSNS{
-	
-}
