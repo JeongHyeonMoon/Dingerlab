@@ -1,6 +1,9 @@
 /**
  * 
  */
+$(function(){
+	$(".youtube").YouTubeModal({autoplay:1, width:640, height:480});
+});
 
 $(document).ready(function(){
 	var swiper = new Swiper('.swiper-container', {
@@ -17,3 +20,7 @@ $(document).ready(function(){
 		loop : true
     });
 });
+
+function moveToSNS{
+	
+}
