@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <!DOCTYPE html>
 <html>
@@ -18,63 +18,25 @@
 	
 	<title>Dinger's Lab</title>
 </head>
-<body>
+<body style="background-image: url('images/footer/footerImage.jpeg');">
 	<jsp:include page="header.jsp"></jsp:include>
 	<jsp:include page="category.jsp"></jsp:include>
 	
 	<section>
 		<h3>Character</h3>
 		<ul id="grid-section">
-			<li>
-				<div class="grid-cell">
-					<h3>Magi</h3>
-					<img class="character-image" alt="" src="images/character/magi.png">
-					<div class="description">
-						요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약
+			<c:forEach var="character" items="${characterList}">
+				<li>
+					<div class="grid-cell" data="${character.cId}">
+						<h3>${character.cTitle}</h3>
+						<img class="character-image" alt="" src="images/character/thumbnail/${character.cThumb}">
+						<div class="description" style="${character.cStyle}">${character.cDescription}</div>
 					</div>
-				</div>
-				
-			</li>
-			<li>
-				<div class="grid-cell">
-					<h3>Assi</h3>
-					<img class="character-image" alt="" src="images/character/magi.png">
-					<div class="description">
-						요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약
-					</div>
-				</div>
-				
-			</li>
-			<li>
-				<div class="grid-cell">
-					<h3>Poli</h3>
-					<img class="character-image" alt="" src="images/character/magi.png">
-					<div class="description">
-						요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="grid-cell">
-					<h3>Chefu</h3>
-					<img class="character-image" alt="" src="images/character/magi.png">
-					<div class="description">
-						요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="grid-cell">
-					<h3>Etc</h3>
-					<img class="character-image" alt="" src="images/character/magi.png">
-					<div class="description">
-						요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약
-					</div>
-				</div>
-			</li>
+					
+				</li>
+			</c:forEach>
 		</ul>
 	</section>
-	
-	<jsp:include page="footer.jsp"></jsp:include>
+
 </body>
 </html>

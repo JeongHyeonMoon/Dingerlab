@@ -6,6 +6,7 @@
     <typeAliases>
     	<package name="com.kr.dingerlab.model"/>
     </typeAliases>
+    
     <mappers>
         <mapper resource="mapper/DingerlabMainMapper.xml"/>
     </mappers>

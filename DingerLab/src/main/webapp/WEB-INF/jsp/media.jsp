@@ -13,10 +13,11 @@
 	<script type="text/javascript" src="js/header.js"></script>
 	<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.css">
 	
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.js"></script>
-	<link type="text/css" rel="stylesheet" href="css/media.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link type="text/css" rel="stylesheet" href="css/media.css">
+	
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.jquery.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/bootstrap.youtubepopup.js"></script>
 	<script type="text/javascript" src="js/media.js"></script>
@@ -30,23 +31,23 @@
 		<h3>Video Clips</h3>
 		<div class="swiper-container three-show">
 			<div class="swiper-wrapper">
-				<div class="swiper-slide">
-					<img class="youtube" alt="bg1" src="images/about/product/product1.jpg" rel="JGwWNGJdvx8">
+				<div class="swiper-slide youtube" rel="JGwWNGJdvx8">
+					<img alt="bg1" src="images/about/product/product1.jpg">
 				</div>
-				<div class="swiper-slide">
-					<img class="youtube" alt="bg1" src="images/about/product/product2.jpg" rel="JGwWNGJdvx8">
+				<div class="swiper-slide youtube" rel="JGwWNGJdvx8">
+					<img alt="bg1" src="images/about/product/product2.jpg">
 				</div>
-				<div class="swiper-slide">
-					<img class="youtube" alt="bg1" src="images/about/product/product3.png" rel="JGwWNGJdvx8">
+				<div class="swiper-slide youtube" rel="JGwWNGJdvx8">
+					<img alt="bg1" src="images/about/product/product3.png">
 				</div>
-				<div class="swiper-slide">
-					<img class="youtube" alt="bg1" src="images/about/product/product1.jpg" rel="JGwWNGJdvx8">
+				<div class="swiper-slide youtube" rel="JGwWNGJdvx8">
+					<img alt="bg1" src="images/about/product/product1.jpg">
 				</div>
-				<div class="swiper-slide">
-					<img class="youtube" alt="bg1" src="images/about/product/product2.jpg" rel="JGwWNGJdvx8">
+				<div class="swiper-slide youtube" rel="JGwWNGJdvx8">
+					<img alt="bg1" src="images/about/product/product2.jpg">
 				</div>
-				<div class="swiper-slide">
-					<img class="youtube" alt="bg1" src="images/about/product/product3.png" rel="JGwWNGJdvx8">
+				<div class="swiper-slide youtube" rel="JGwWNGJdvx8">
+					<img alt="bg1" src="images/about/product/product3.png">
 				</div>
 			</div>
 			<!-- Add Pagination -->

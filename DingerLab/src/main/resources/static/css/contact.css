@@ -13,6 +13,14 @@ header>a{
 	color : black;
 }
 
+#language-list>li>a{
+	color : rgba(0,0,0,0.4);
+}
+
+.activate{
+	color : black !important;
+}
+
 #category-list>li>a{
 	color : rgba(0,0,0,0.5);
 }

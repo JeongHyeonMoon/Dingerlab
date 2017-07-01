@@ -2,9 +2,12 @@ package com.kr.dingerlab.controller;
 
 import java.util.Collections;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+
+import com.kr.dingerlab.service.DingerLabMainService;
 
 @Controller
 public class DingerLabMainController {
@@ -18,6 +21,17 @@ public class DingerLabMainController {
 	private static final String MEDIA_LIST[] =
 		{"Video Clips", "Blog/SNS"};
 
+	
+	@Autowired
+	private DingerLabMainService service;
+	
+	public DingerLabMainService getService() {
+		return service;
+	}
+
+	public void setService(DingerLabMainService service) {
+		this.service = service;
+	}
 
 	@GetMapping("/")
 	public String goMainPage(){
@@ -35,6 +49,7 @@ public class DingerLabMainController {
 	@GetMapping("/character")
 	public String goCharacterPage(Model model){
 		model.addAttribute("categoryList",CHARACTER_LIST);
+		model.addAttribute("characterList", service.goToCharacterAction());
 		return "character";
 	}
 	
