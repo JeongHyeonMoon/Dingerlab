@@ -17,7 +17,7 @@
 	
 	<title>Dinger's Lab</title>
 </head>
-<body>
+<body style="background-image: url('images/footer/footerImage.jpg');">
 	<jsp:include page="header.jsp"></jsp:include>
 	<jsp:include page="category.jsp"></jsp:include>
 	
@@ -32,8 +32,6 @@
 			mail : dingerphd@gmail.com
 		</article>
 	</section>
-	
-	<jsp:include page="footer.jsp"></jsp:include>
 	
 </body>
 </html>

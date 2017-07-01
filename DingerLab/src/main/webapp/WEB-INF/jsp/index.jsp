@@ -17,7 +17,7 @@
 	<meta charset="UTF-8">
 	<title>Dinger's Lab</title>
 </head>
-<body>
+<body style="background-image: url('images/footer/footerImage.jpg');">
 	<jsp:include page="header.jsp"></jsp:include>
 	
 	<div id="video-section">
@@ -34,6 +34,5 @@
 			</div>
 		</div>
 	</div>
-	<jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>
