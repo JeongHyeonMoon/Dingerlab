@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 
     <header>
-    	<a href="/">
+    	<a href="./">
     		<span>D</span>inger's <span>L</span>ab.
     	</a>
     	
