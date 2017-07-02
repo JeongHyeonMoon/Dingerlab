@@ -8,7 +8,7 @@ $(document).ready(function(){
 		$('#video-container').empty();
 		$('#modal-container>h1').html($(this).find('h3').html());
 		$.ajax({
-			url : '/api/detail/'+$(this).attr('data'),
+			url : './api/detail/'+$(this).attr('data'),
 			method : 'GET',
 			success : function(result){
 				$('#modal').fadeIn('slow', function(){
