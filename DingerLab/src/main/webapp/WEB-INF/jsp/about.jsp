@@ -37,8 +37,8 @@
 				</div>
 			</div>
 			<div class="swiper-pagination"></div>
-			<div class="swiper-button-prev"></div>
-    		<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev" style="background-image: url('images/left-arrow.png');"></div>
+		    <div class="swiper-button-next" style="background-image: url('images/right-arrow.png');"></div>
 		</div>
 		<article class="article-section">
 			<article class="sub-title">Dinger's Lab</article>
@@ -63,8 +63,8 @@
 				</div>
 			</div>
 			<div class="swiper-pagination"></div>
-			<div class="swiper-button-prev"></div>
-    		<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev" style="background-image: url('images/left-arrow.png');"></div>
+		    <div class="swiper-button-next" style="background-image: url('images/right-arrow.png');"></div>
 		</div>
 		<article class="article-section">
 			<article class="sub-title">&lt;딩고&gt; : 메카닉 페이퍼토이</article>
@@ -92,8 +92,8 @@
 				</div>
 			</div>
 			<div class="swiper-pagination"></div>
-			<div class="swiper-button-prev"></div>
-    		<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev" style="background-image: url('images/left-arrow.png');"></div>
+		    <div class="swiper-button-next" style="background-image: url('images/right-arrow.png');"></div>
 		</div>
 		<article class="article-section">
 			<article class="sub-title">Collaboration</article>
@@ -113,8 +113,8 @@
 				</div>
 			</div>
 			<div class="swiper-pagination"></div>
-			<div class="swiper-button-prev"></div>
-    		<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev" style="background-image: url('images/left-arrow.png');"></div>
+		    <div class="swiper-button-next" style="background-image: url('images/right-arrow.png');"></div>
 		</div>
 		<article class="article-section">
 			<article class="sub-title">Education</article>
@@ -140,8 +140,8 @@
 				</div>
 			</div>
 			<div class="swiper-pagination"></div>
-			<div class="swiper-button-prev"></div>
-    		<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev" style="background-image: url('images/left-arrow.png');"></div>
+		    <div class="swiper-button-next" style="background-image: url('images/right-arrow.png');"></div>
 		</div>
 		<article class="article-section">
 			<article class="sub-title">Awards</article>

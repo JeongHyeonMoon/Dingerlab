@@ -12,8 +12,12 @@ $(document).ready(function(){
 		
 		if(pos >= videoSectionHeight){
 			$('header>a').css('color','black');
+			$('#language-list>li>a').css('color','rgba(0, 0, 0, 0.4)');
+			$('#language-list>li>a.activate').css('color','black');
 		}else{
 			$('header>a').css('color','white');
+			$('#language-list>li>a').css('color','rgba(255, 255, 255, 0.4)');
+			$('#language-list>li>a.activate').css('color','white');
 		}
 	});
 });

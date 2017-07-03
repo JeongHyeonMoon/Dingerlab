@@ -34,7 +34,7 @@ header>a{
 }
 
 header>a>span{
-	color : red;
+	color : rgb(196,24,65);
 }
 
 header>a:HOVER{
@@ -75,5 +75,9 @@ h3{
 }
 
 .activate{
-	color : white !important;
+	color : white;
+}
+
+.swiper-pagination-bullet-active{
+	background : #c41841 none repeat scroll 0 0 !important;
 }

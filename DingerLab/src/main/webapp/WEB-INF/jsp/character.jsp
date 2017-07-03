@@ -50,8 +50,8 @@
 					<div class="swiper-wrapper">
 					</div>
 					<div class="swiper-pagination"></div>
-					<div class="swiper-button-prev"></div>
-		    		<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev" style="background-image: url('images/left-arrow.png');"></div>
+		    		<div class="swiper-button-next" style="background-image: url('images/right-arrow.png');"></div>
 				</div>
 				
 				<div id="video-container">
