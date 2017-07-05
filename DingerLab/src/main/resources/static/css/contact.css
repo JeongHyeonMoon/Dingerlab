@@ -51,8 +51,11 @@ section>div{
 }
 
 section>div>img{
-	width : 100%;
+	width : 50%;
 	height : auto;
+	border-radius : 30px;
+	display : block;
+	margin : 0 auto;
 }
 
 #contact-description{
@@ -60,11 +63,19 @@ section>div>img{
 	height : auto;
 	
 	line-height: 25px;
-	
+	margin-top : 30px;
+	margin-bottom : 30px;
 }
 
 #contact-description>strong{
 	font-size: 22px;
 	line-height : 35px;
 	margin-bottom : 
+}
+
+#googleMap{
+	width : 100%;
+	max-width : 1000px;
+	height : 400px;
+	margin : 0 auto;
 }

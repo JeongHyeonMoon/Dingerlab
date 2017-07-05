@@ -12,8 +12,10 @@
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/header.js"></script>
 	<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.css">
-	
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsBy1zOEc8d1buJnhe5fgqkYhCo6kbFxo&callback=initMap"></script>
+	<script type="text/javascript" src="js/contact.js"></script>
 	<link type="text/css" rel="stylesheet" href="css/contact.css">
+	
 	
 	<title>Dinger's Lab</title>
 </head>
@@ -24,14 +26,17 @@
 	<section>
 		<h3>Contact</h3>
 		<div>
-			<img alt="" src="images/contact/mapExample.png">
+			<img alt="" src="images/contact/mailer.png">
 		</div>
 		<article id="contact-description">
 			<strong>캐릭터 콜라보레이션, 매장 입점, 기타 외주 제작 문의</strong><br> 
 			H.P : 010 3558 4351 <br>
 			mail : dingerphd@gmail.com
 		</article>
+		<div id="googleMap"></div>
 	</section>
+	
+	
 	
 </body>
 </html>
