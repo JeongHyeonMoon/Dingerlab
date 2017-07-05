@@ -24,7 +24,7 @@
 			<li>
 				<div class="grid-cell">
 					<h3>Ationery</h3>
-					<img class="market-thumnail" alt="" src="images/character/thumbnail/magi_thumbnail.png">
+					<img class="market-thumnail" alt="" src="images/market/ationery.JPG">
 					<div class="description">
 						요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약
 					</div>
@@ -33,7 +33,7 @@
 			<li>
 				<div class="grid-cell">
 					<h3>DDP</h3>
-					<img class="market-thumnail" alt="" src="images/character/thumbnail/magi_thumbnail.png">
+					<img class="market-thumnail" alt="" src="images/market/ddp.JPG">
 					<div class="description">
 						요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약
 					</div>

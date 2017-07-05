@@ -35,6 +35,9 @@
 				<div class="swiper-slide">
 					<img alt="bg1" src="images/about/dingerlab/dingerlab1.jpg">
 				</div>
+				<div class="swiper-slide">
+					<img alt="bg1" src="images/about/dingerlab/dingerlab2.jpg">
+				</div>
 			</div>
 			<div class="swiper-pagination"></div>
 			<div class="swiper-button-prev" style="background-image: url('images/left-arrow.png');"></div>
@@ -53,13 +56,13 @@
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
-					<img alt="bg1" src="images/about/product/product1.jpg">
+					<img alt="bg1" src="images/about/product/product1.png">
 				</div>
 				<div class="swiper-slide">
 					<img alt="bg1" src="images/about/product/product2.jpg">
 				</div>
 				<div class="swiper-slide">
-					<img alt="bg1" src="images/about/product/product3.png">
+					<img alt="bg1" src="images/about/product/product3.jpg">
 				</div>
 			</div>
 			<div class="swiper-pagination"></div>
@@ -110,6 +113,12 @@
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
 					<img alt="bg1" src="images/about/education/education1.jpg">
+				</div>
+				<div class="swiper-slide">
+					<img alt="bg1" src="images/about/education/education2.jpg">
+				</div>
+				<div class="swiper-slide">
+					<img alt="bg1" src="images/about/education/education3.jpg">
 				</div>
 			</div>
 			<div class="swiper-pagination"></div>
