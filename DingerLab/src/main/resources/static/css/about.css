@@ -49,10 +49,19 @@ section{
 	position : relative;
 }
 
+.swiper-container{
+	width : 80%;
+	height : 500px;
+	margin : 0 auto;
+	background-color : rgba(165,164,161,0.5);
+	
+}
+
 .swiper-slide>img{
-	width : 100%;
-	height : auto;
-	overflow: hidden;
+	width : auto;
+	height : 100%;
+	display : block;
+	margin : 0 auto;
 }
 
 h2{
