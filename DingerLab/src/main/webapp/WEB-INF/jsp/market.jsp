@@ -17,7 +17,6 @@
 </head>
 <body style="background-image: url('images/footer/footerImage.jpg');">
 	<jsp:include page="header.jsp"></jsp:include>
-	<jsp:include page="category.jsp"></jsp:include>
 	
 	<section>
 		<ul id="grid-section">

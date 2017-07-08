@@ -26,7 +26,7 @@
 	<ul id="small-category-list">
 		<c:if test="${categoryList != null }">
 			<c:forEach var="category" items="${categoryList}">
-				<li>${category}</li>
+				<li class="small-category">${category}</li>
 			</c:forEach>
 		</c:if>
 	</ul>

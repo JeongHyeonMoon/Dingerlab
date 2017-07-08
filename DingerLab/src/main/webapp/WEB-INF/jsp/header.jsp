@@ -11,4 +11,5 @@
     		<li><a href="#" onclick="languageClick(this);">English</a></li>
     		<li><a href="#" onclick="languageClick(this);">日本語</a></li>
     	</ul>
+    	<jsp:include page="category.jsp"></jsp:include>
     </header>
