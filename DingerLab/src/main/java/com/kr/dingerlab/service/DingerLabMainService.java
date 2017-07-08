@@ -26,6 +26,11 @@ public class DingerLabMainService {
 		this.dao = dao;
 	}
 	
+	public List<String> getAllCharacterUrl(){
+		List<String> photos = dao.getAllCharacterList();
+		return photos;
+	}
+	
 	
 	public List<CharacterList> goToCharacterAction(){
 		List<CharacterList> list = dao.getCharacterListAll(); 

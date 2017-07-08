@@ -1,6 +1,7 @@
 package com.kr.dingerlab.controller;
 
 import java.util.Collections;
+import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -34,9 +35,10 @@ public class DingerLabMainController {
 	}
 
 	@GetMapping("/")
-	public String goMainPage(){
+	public String goMainPage(Model model){
 		System.out.println("im in goMainPage");
-
+		List<String> characterImgUrl = service.getAllCharacterUrl();
+		model.addAttribute("photos",characterImgUrl);
 		return "index";
 	}
 	

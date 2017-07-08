@@ -14,4 +14,8 @@
 		<where>i_cId = #{id} </where>
 		order by iUrl ASC;
 	</select>
+	
+	<select id="getAllCharacterList" resultType="string">
+		SELECT iUrl FROM CharacterImages;
+	</select>
 </mapper>

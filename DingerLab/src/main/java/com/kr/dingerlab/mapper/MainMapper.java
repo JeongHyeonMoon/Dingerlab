@@ -16,5 +16,7 @@ public interface MainMapper {
 
 	CharacterDetail getCharacterDetailInfo(int id);
 	String[] getCharacterImages(int id);
+
+	List<String> getAllCharacterList();
 	
 }
