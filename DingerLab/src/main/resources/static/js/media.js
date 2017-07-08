@@ -19,4 +19,9 @@ $(document).ready(function(){
 		autoplay : 3000,
 		loop : true
     });
+	
+	$(window).on('scroll', function(){
+		var pos = $(this).scrollTop();
+		changeHeaderState(pos);
+	});
 });

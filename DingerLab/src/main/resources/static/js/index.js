@@ -6,6 +6,22 @@ $(document).ready(function(){
 		height : $(window).height()
 	});
 	
+	$('#contents').css({
+		height : $(window).height()
+	});
+	
+	var swiper = new Swiper('.swiper-container', {
+		slidesPerView: 2,
+		
+		prevButton : '.swiper-button-prev',
+		nextButton : '.swiper-button-next',
+		
+		spaceBetween : 30,
+		
+		autoplay : 3000,
+		loop : true
+	});
+	
 	$(window).on('scroll', function(){
 		var pos = $(this).scrollTop();
 		var videoSectionHeight = $('#video-section').height();
@@ -19,6 +35,8 @@ $(document).ready(function(){
 			$('#language-list>li>a').css('color','rgba(255, 255, 255, 0.4)');
 			$('#language-list>li>a.activate').css('color','white');
 		}
+		
+		changeHeaderState(pos);
 	});
 });
 

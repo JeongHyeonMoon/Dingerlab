@@ -6,9 +6,6 @@ html,body{
 	position : relative;
 }
 
-header{
-	text-align: center;
-}
 
 header>a{
 	color : black;

@@ -4,6 +4,12 @@
 
 $(document).ready(function(){
 	googleMapInit();
+	
+	$(window).on('scroll', function(){
+		var pos = $(this).scrollTop();
+		changeHeaderState(pos);
+	});
+	
 });
 
 function googleMapInit(){

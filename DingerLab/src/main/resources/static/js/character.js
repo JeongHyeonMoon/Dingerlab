@@ -3,10 +3,19 @@
  */
 
 $(document).ready(function(){
+	fitMiddle($('header>a').width()*1);
+	$(window).on('scroll', function(){
+		var pos = $(this).scrollTop();
+		console.log(pos);
+		changeHeaderState(pos);
+	});
+	
 	$('.grid-cell').click(function(){
 		$('.swiper-wrapper').empty();
 		$('#video-container').empty();
 		$('#modal-container>h1').html($(this).find('h3').html());
+		
+		
 		$.ajax({
 			url : './api/detail/'+$(this).attr('data'),
 			method : 'GET',
