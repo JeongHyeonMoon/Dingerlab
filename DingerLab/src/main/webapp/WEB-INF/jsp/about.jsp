@@ -28,7 +28,7 @@
 	<jsp:include page="header.jsp"></jsp:include>
 	
 	<section>
-		<h2>Dinger's Lab</h2>
+		<h2 class="dingerLab-h2">Dinger's Lab</h2>
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
@@ -51,7 +51,7 @@
 	</section>
 	
 	<section>
-		<h2>Product</h2>
+		<h2 class="product-h2">Product</h2>
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
@@ -77,7 +77,7 @@
 	</section>
 	
 	<section>
-		<h2>Collaboration</h2>
+		<h2 class="collaboration-h2">Collaboration</h2>
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
@@ -107,7 +107,7 @@
 	</section>
 	
 	<section>
-		<h2>Education</h2>
+		<h2 class="education-h2">Education</h2>
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
@@ -134,7 +134,7 @@
 		</article>
 	</section>
 	<section>
-		<h2>Awards</h2>
+		<h2 class="awards-h2">Awards</h2>
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">

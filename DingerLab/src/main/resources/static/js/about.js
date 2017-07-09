@@ -18,12 +18,40 @@ $(document).ready(function(){
 	});
 	
 	$(window).on('scroll', function(){
-		var pos = $(this).scrollTop();
+		var pos = $(this).scrollTop()*1;
 		changeHeaderState(pos);
 		
 		var headList = $('body').find('h2');
 		
 		//스크롤 시에 category 글씨체 bold 처리해야함.
+		
+		var $categoryList = $('.small-category');
+		$categoryList.css({
+			'color' : 'rgba(0, 0, 0, 0.4)'
+		});
+		if(pos+100 > $('.awards-h2').offset().top*1){
+			$categoryList.eq(4).css({
+				'color' : 'black'
+			});
+		}else if(pos+100 > $('.education-h2').offset().top*1){
+			$categoryList.eq(3).css({
+				'color' : 'black'
+			});
+		}else if(pos+100 > $('.collaboration-h2').offset().top*1){
+			$categoryList.eq(2).css({
+				'color' : 'black'
+			});
+		}else if(pos+100 > $('.product-h2').offset().top*1){
+			$categoryList.eq(1).css({
+				'color' : 'black'
+			});
+		}else if(pos+100 > $('.dingerLab-h2').offset().top*1){
+			$categoryList.eq(0).css({
+				'color' : 'black'
+			});
+		}
+		
+		
 	});
 	
 	$('.small-category').click(function(){

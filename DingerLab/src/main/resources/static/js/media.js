@@ -6,6 +6,8 @@ $(function(){
 });
 
 $(document).ready(function(){
+	fitMiddle($('header>a').width()*1);
+	
 	var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
         slidesPerView: 3,

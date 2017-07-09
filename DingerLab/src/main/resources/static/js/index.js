@@ -12,9 +12,7 @@ $(document).ready(function(){
 	
 	var swiper = new Swiper('.swiper-container', {
 		slidesPerView: 2,
-		
-		prevButton : '.swiper-button-prev',
-		nextButton : '.swiper-button-next',
+
 		
 		spaceBetween : 30,
 		
@@ -30,10 +28,12 @@ $(document).ready(function(){
 			$('header>a').css('color','black');
 			$('#language-list>li>a').css('color','rgba(0, 0, 0, 0.4)');
 			$('#language-list>li>a.activate').css('color','black');
+			$('#category-list>li>a').css('color','black');
 		}else{
 			$('header>a').css('color','white');
 			$('#language-list>li>a').css('color','rgba(255, 255, 255, 0.4)');
 			$('#language-list>li>a.activate').css('color','white');
+			$('#category-list>li>a').css('color','white');
 		}
 		
 		changeHeaderState(pos);
