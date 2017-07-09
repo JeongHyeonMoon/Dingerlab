@@ -24,10 +24,24 @@
 	</ul>
 	
 	<ul id="small-category-list">
-		<c:if test="${categoryList != null }">
-			<c:forEach var="category" items="${categoryList}">
-				<li class="small-category">${category}</li>
-			</c:forEach>
-		</c:if>
+		
+		<c:choose>
+			
+			<c:when test="${characterNameIdList != null}">
+				<c:forEach var="characterNameId" items="${characterNameIdList}">
+					<li class="small-category">
+						${characterNameId.cName}
+						<input type="hidden" class="cId" value="${characterNameId.cId}">
+					</li>
+				</c:forEach>
+			</c:when>
+			
+			<c:when test="${categoryList != null }">
+				<c:forEach var="category" items="${categoryList}">
+					<li class="small-category">${category}</li>
+				</c:forEach>
+			</c:when>
+		</c:choose>
+		
 	</ul>
 </div>

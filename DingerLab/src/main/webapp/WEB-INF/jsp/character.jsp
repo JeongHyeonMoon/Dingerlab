@@ -64,9 +64,7 @@
 					<span class="cdTop1">일단은 탐정</span><br>
 					<span class="cdTop2">미상( 딩거: 이상하다 분명히 내가 만들었는데 ...)</span><br>
 					<div class="description-subtitle"></div>
-					<div class="description-contents">
-						
-					</div>
+					<div class="description-contents"></div>
 				</div>
 			</div>
 		</div>
