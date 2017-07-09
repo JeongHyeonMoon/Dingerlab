@@ -1,6 +1,8 @@
 package com.kr.dingerlab.controller;
 
+import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,8 +17,6 @@ public class DingerLabMainController {
 
 	private static final String ABOUT_LIST[] = 
 		{"Dinger's Lab", "Product", "Collaboration", "Education", "Awards"};
-	private static final String CHARACTER_LIST[] =
-		{"Magi", "Assi", "Poli", "Chefu", "etc"};
 	private static final String MARKET_LIST[] =
 		{"Offline", "Online"};
 	private static final String MEDIA_LIST[] =
@@ -50,7 +50,8 @@ public class DingerLabMainController {
 	
 	@GetMapping("/character")
 	public String goCharacterPage(Model model){
-		model.addAttribute("categoryList",CHARACTER_LIST);
+		
+		model.addAttribute("characterNameIdList", service.getAllCharactersNameId());
 		model.addAttribute("characterList", service.goToCharacterAction());
 		return "character";
 	}
@@ -76,6 +77,7 @@ public class DingerLabMainController {
 	@GetMapping("/contact")
 	public String goContactPage(Model model){
 		model.addAttribute("categoryList", Collections.EMPTY_LIST);
+		
 		return "contact";
 	}
 }

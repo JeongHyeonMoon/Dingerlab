@@ -18,4 +18,9 @@
 	<select id="getAllCharacterList" resultType="string">
 		SELECT iUrl FROM CharacterImages;
 	</select>
+	
+	<select id="getAllCharactersNameId" resultType="com.kr.dingerlab.model.CharacterList">
+		SELECT cId, cName FROM CharacterList 
+		ORDER BY cId;
+	</select>
 </mapper>

@@ -1,5 +1,6 @@
 package com.kr.dingerlab.service;
 
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
@@ -49,5 +50,11 @@ public class DingerLabMainService {
 		
 		return charDetail;
 	}
+	
+	public List<CharacterList> getAllCharactersNameId(){
+		return dao.getAllCharactersNameId();
+	}
+	
+	
 	
 }
