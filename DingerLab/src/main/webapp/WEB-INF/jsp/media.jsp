@@ -31,23 +31,17 @@
 		<h3>Video Clips</h3>
 		<div class="swiper-container three-show">
 			<div class="swiper-wrapper">
-				<div class="swiper-slide youtube" rel="JGwWNGJdvx8">
-					<img alt="bg1" src="images/about/product/product1.jpg">
+				<div class="swiper-slide youtube" rel="XDdTizWKH2Q">
+					<img alt="bg1" src="images/media/1.JPG">
 				</div>
-				<div class="swiper-slide youtube" rel="JGwWNGJdvx8">
-					<img alt="bg1" src="images/about/product/product2.jpg">
+				<div class="swiper-slide youtube" rel="qzgEt6rt6yw">
+					<img alt="bg1" src="images/media/2.JPG">
 				</div>
-				<div class="swiper-slide youtube" rel="JGwWNGJdvx8">
-					<img alt="bg1" src="images/about/product/product3.png">
+				<div class="swiper-slide youtube" rel="xLrtqxBgxII">
+					<img alt="bg1" src="images/media/3.JPG">
 				</div>
-				<div class="swiper-slide youtube" rel="JGwWNGJdvx8">
-					<img alt="bg1" src="images/about/product/product1.jpg">
-				</div>
-				<div class="swiper-slide youtube" rel="JGwWNGJdvx8">
-					<img alt="bg1" src="images/about/product/product2.jpg">
-				</div>
-				<div class="swiper-slide youtube" rel="JGwWNGJdvx8">
-					<img alt="bg1" src="images/about/product/product3.png">
+				<div class="swiper-slide youtube" rel="c4Qt7RY-7dM">
+					<img alt="bg1" src="images/media/4.JPG">
 				</div>
 			</div>
 			<!-- Add Pagination -->
