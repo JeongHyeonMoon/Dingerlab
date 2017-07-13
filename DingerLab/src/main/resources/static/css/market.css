@@ -91,8 +91,74 @@ h3{
 }
 
 #grid-section>li:HOVER {
-	
+		
 }
+
+
+
+
+
+#modal{
+	width : 100%;
+	height : 100%;
+	top : 0;
+	padding-top : 260px;
+	background-color: rgba(0,0,0,0.5);
+	position : absolute;
+	display : none;
+	z-index : 900;
+}
+
+#modal-section{
+	width : 80%;
+	max-width : 1400px;
+	height : 100%;
+	background-color: white;
+	margin : 0 auto;
+	margin-top : -10%;
+}
+
+#modal-container{
+	width : 80%;
+	height : 100%;
+	
+	margin : 0 auto;
+}
+
+#modal-container>h1{
+	padding-top : 25px;
+	margin-bottom : 25px;
+	text-align: left;
+	padding-left : 45px;
+	display :inline-block;
+}
+
+.quiteBtn{
+	width : 32px;
+	height : auto;
+	display: inline-block;
+	float : right;
+	margin-top : 50px;
+}
+
+.quiteBtn:HOVER{
+	cursor: pointer;
+}
+
+#googleMap{
+	width : 80%;
+	height : 400px;
+	margin : 0 auto;
+}
+
+#modal-description{
+	width : 80%;
+	height : auto;
+	margin : 0 auto;
+	margin-top : 20px;
+}
+
+
 
 
 

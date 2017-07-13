@@ -40,17 +40,11 @@
 			<h1>딩거랩에 어서오세요</h1>
 			<p>딩거랩은 종이와 기계공학을 결합하여 보다 다양하고 새로운 가치를 가진 제품을 만들어내는 곳입니다. </p>
 			<p>기존의 종이 제품이 할 수 없다고 생각했던 일을 해내는 제품들을 즐겨주세요. </p>
-			<div class="swiper-container">
-				<div class="swiper-wrapper">
-					<c:forEach var="photo" items="${photos}">
-						<div class="swiper-slide">
-							<img alt="bg1" src="images/index${photo}">
-						</div>
-					</c:forEach>
-				</div>
-				<div class="swiper-pagination"></div>
+			<div>
+				<img alt="" src="images/main/main.jpeg">
 			</div>
 		</div>
 	</div>
+	<jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>

@@ -10,9 +10,11 @@
 	<link type="text/css" rel="stylesheet" href="css/category.css">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/header.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsBy1zOEc8d1buJnhe5fgqkYhCo6kbFxo&callback=initMap"></script>
 	
 	<link type="text/css" rel="stylesheet" href="css/market.css">
 	<link type="text/css" rel="stylesheet" href="css/footer.css">
+	<script type="text/javascript" src="js/market.js"></script>
 	<title>Dinger's Lab</title>
 </head>
 <body style="background-image: url('images/footer/footerImage.jpg');">
@@ -22,24 +24,35 @@
 		<ul id="grid-section">
 			<li>
 				<div class="grid-cell">
+					<input type="hidden" class="yPos" value="37.4922149">
+					<input type="hidden" class="xPos" value="127.020674">
+					<input type="hidden" class="description" value="서울시 서초구 사임당로 23길 43">
 					<h3>Ationery</h3>
 					<img class="market-thumnail" alt="" src="images/market/ationery.JPG">
-					<div class="description">
-						요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약
-					</div>
 				</div>
 			</li>
 			<li>
 				<div class="grid-cell">
+					<input type="hidden" class="yPos" value="37.5679718">
+					<input type="hidden" class="xPos" value="127.010902">
+					<input type="hidden" class="description" value="서울시 중구 을지로 281 배움터 2층 디자인박물관">
 					<h3>DDP</h3>
 					<img class="market-thumnail" alt="" src="images/market/ddp.JPG">
-					<div class="description">
-						요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약요약
-					</div>
 				</div>
 			</li>
 		</ul>
 	</section>
-
+	
+	<div id="modal">
+		<div id="modal-section">
+			<div id="modal-container">
+				<h1>This is title</h1>
+				<img class="quiteBtn" src="images/character/quiteButton.png">
+				
+				<div id="googleMap"></div>
+				<div id="modal-description"></div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

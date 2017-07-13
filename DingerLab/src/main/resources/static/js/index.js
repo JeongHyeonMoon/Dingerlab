@@ -6,10 +6,6 @@ $(document).ready(function(){
 		height : $(window).height()
 	});
 	
-	$('#contents').css({
-		height : $(window).height()
-	});
-	
 	var swiper = new Swiper('.swiper-container', {
 		slidesPerView: 2,
 

@@ -13,9 +13,9 @@
 	<script type="text/javascript" src="js/header.js"></script>
 	<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.css">
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsBy1zOEc8d1buJnhe5fgqkYhCo6kbFxo&callback=initMap"></script>
+	
 	<script type="text/javascript" src="js/contact.js"></script>
 	<link type="text/css" rel="stylesheet" href="css/contact.css">
-	
 	
 	<title>Dinger's Lab</title>
 </head>

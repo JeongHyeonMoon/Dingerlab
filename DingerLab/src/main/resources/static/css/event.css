@@ -5,10 +5,6 @@ html,body{
 	height : auto;
 }
 
-header{
-	text-align: center;
-}
-
 header>a{
 	color : black;
 }
@@ -56,7 +52,8 @@ h3{
 }
 
 .event-cell{
-	width : 80%;
+	width : 60%;
+	max-width : 500px;
 	height : auto;
 	
 	margin : 0 auto;

@@ -26,12 +26,12 @@
 		<ul id="event-list">
 			<li>
 				<div class="event-cell">
-					<img alt="bg1" src="images/about/product/product1.jpg">
+					<img alt="bg1" src="images/market/ationery.JPG">
 				</div>
 			</li>
 			<li>
 				<div class="event-cell">
-					<img alt="bg1" src="images/about/product/product1.jpg">
+					<img alt="bg1" src="images/market/ationery.JPG">
 				</div>
 			</li>
 		</ul>
