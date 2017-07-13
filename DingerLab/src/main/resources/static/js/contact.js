@@ -3,6 +3,7 @@
  */
 
 $(document).ready(function(){
+	fitMiddle($('header>a').width()*1);
 	googleMapInit();
 	
 	$(window).on('scroll', function(){

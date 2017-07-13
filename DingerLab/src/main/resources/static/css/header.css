@@ -3,6 +3,9 @@
 
 html,body{
 	font-family: "Nanum Gothic", sans-serif !important;
+	background-attachment: fixed;
+    background-position: center bottom;
+    background-size: cover;
 }
 
 header{
