@@ -22,7 +22,7 @@ footer ul{
 }
 
 footer ul li{
-	width : calc(100%/3.00001);
+	width : calc(100%/4.00001);
 	height : 100%;
 	list-style: none;
 	color : white;
@@ -30,7 +30,11 @@ footer ul li{
 	float : left;
 	text-align: center;
 	line-height : 50px;
-	font-size : 13px;
+	font-size : 0.7em;
+}
+
+footer span{
+	text-decoration: underline;
 }
 
 footer ul li:after{

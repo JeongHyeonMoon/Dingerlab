@@ -78,6 +78,7 @@
 	
 	<section>
 		<h2 class="collaboration-h2">Collaboration</h2>
+		<iframe width="640" height="360" src="https://www.youtube.com/embed/XDdTizWKH2Q" frameborder="0" allowfullscreen></iframe>
 		<div class="swiper-container">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
