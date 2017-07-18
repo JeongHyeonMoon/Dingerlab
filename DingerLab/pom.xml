@@ -136,10 +136,7 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<url>http://localhost:8080/manager/text</url>
-					<path>/dingerlab</path>
-					<username>wooseok01</username>
-					<password>Ss5327128!</password>
+					<path>/</path>
 				</configuration>
 			</plugin>
 		</plugins>
