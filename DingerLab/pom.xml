@@ -123,7 +123,6 @@
 	</dependencies>
 
 	<build>
-		<finalName>ROOT</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -137,7 +136,10 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
+					<url>http://localhost:8080/manager/text</url>
 					<path>/</path>
+					<username>wooseok01</username>
+					<password>Ss5327128!</password>
 				</configuration>
 			</plugin>
 		</plugins>
