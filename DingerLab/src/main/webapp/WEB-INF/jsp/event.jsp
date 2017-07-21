@@ -23,18 +23,14 @@
 	
 	<section>
 		<h3>Event</h3>
-		<ul id="event-list">
+		<!-- <ul id="event-list">
 			<li>
 				<div class="event-cell">
-					<img alt="bg1" src="images/market/ationery.JPG">
+					<img alt="bg1" src="images/ready_pic.jpeg">
 				</div>
 			</li>
-			<li>
-				<div class="event-cell">
-					<img alt="bg1" src="images/market/ationery.JPG">
-				</div>
-			</li>
-		</ul>
+		</ul> -->
+		<img alt="" src="images/ready_pic.jpeg" id="temp-picture">
 	</section>
 	<jsp:include page="footer.jsp"></jsp:include>
 </body>

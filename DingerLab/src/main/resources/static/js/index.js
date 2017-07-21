@@ -1,3 +1,9 @@
+var agent = navigator.userAgent.toLowerCase();
+
+if(navigator.appName == "Microsoft Internet Explorer"){
+	alert("윈도우 10이하의 환경에서는 홈페이지가 제대로 동작하지 않을 수 있습니다. 윈도우11 혹은 크롬에서 실행해 주세요! :)")
+}
+
 $(document).ready(function(){
 	
 	fitMiddle($('header>a').width()*1);

@@ -69,3 +69,11 @@ footer{
 	position : absolute;
 	bottom : 0;
 }
+
+#temp-picture{
+	width : 40%;
+	max-width : 500px;
+	display : block;
+	margin : 0 auto;
+	border-radius : 10px;
+}

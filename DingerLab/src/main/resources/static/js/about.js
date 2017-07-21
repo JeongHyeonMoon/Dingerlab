@@ -29,23 +29,23 @@ $(document).ready(function(){
 		$categoryList.css({
 			'color' : 'rgba(0, 0, 0, 0.4)'
 		});
-		if(pos+100 > $('.awards-h2').offset().top*1){
+		if(pos >= $('.awards-h2').offset().top*1 - 110){
 			$categoryList.eq(4).css({
 				'color' : 'black'
 			});
-		}else if(pos+100 > $('.education-h2').offset().top*1){
+		}else if(pos >= $('.education-h2').offset().top*1 - 110){
 			$categoryList.eq(3).css({
 				'color' : 'black'
 			});
-		}else if(pos+100 > $('.collaboration-h2').offset().top*1){
+		}else if(pos >= $('.collaboration-h2').offset().top*1 - 110){
 			$categoryList.eq(2).css({
 				'color' : 'black'
 			});
-		}else if(pos+100 > $('.product-h2').offset().top*1){
+		}else if(pos >= $('.product-h2').offset().top*1 - 110){
 			$categoryList.eq(1).css({
 				'color' : 'black'
 			});
-		}else if(pos+100 > $('.dingerLab-h2').offset().top*1){
+		}else if(pos >= $('.dingerLab-h2').offset().top*1 - 110){
 			$categoryList.eq(0).css({
 				'color' : 'black'
 			});

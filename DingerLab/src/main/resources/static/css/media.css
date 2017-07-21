@@ -73,3 +73,10 @@ h3{
 .youtube:HOVER{
 	cursor: pointer;
 }
+
+
+#temp-picture{
+	width :40%;
+	display : block;
+	margin : 0 auto;
+}

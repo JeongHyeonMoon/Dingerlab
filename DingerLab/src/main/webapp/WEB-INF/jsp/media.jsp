@@ -53,7 +53,7 @@
 	
 	<section>
 		<h3>Blog / SNS</h3>
-		<div class="swiper-container three-show">
+		<!-- <div class="swiper-container three-show">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
 					<img alt="bg1" src="images/about/product/product1.jpg">
@@ -74,11 +74,12 @@
 					<img alt="bg1" src="images/about/product/product3.png">
 				</div>
 			</div>
-			<!-- Add Pagination -->
+			Add Pagination
 			<div class="swiper-pagination"></div>
 			<div class="swiper-button-prev" style="background-image: url('images/left-arrow.png');"></div>
 		    <div class="swiper-button-next" style="background-image: url('images/right-arrow.png');"></div>
-		</div>
+		</div> -->
+		<img alt="" src="images/ready_pic.jpeg" id="temp-picture">
 	</section>
 	
 	<jsp:include page="footer.jsp"></jsp:include>
