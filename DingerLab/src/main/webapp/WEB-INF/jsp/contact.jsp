@@ -32,6 +32,8 @@
 			H.P : 010 3558 4351 <br>
 			mail : dingerphd@gmail.com
 		</article>
+		<p> <b>지번</b>   :  서울시 성북구 안암동5가 103-145 </p>
+		<p> <b>도로명</b> :  서울시 성북구 인촌로26길 15</p>
 		<div id="googleMap"></div>
 	</section>
 	
