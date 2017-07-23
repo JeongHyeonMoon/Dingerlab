@@ -2,7 +2,7 @@ package com.kr.dingerlab.model;
 
 import java.io.Serializable;
 
-public class CharacterDetail implements Serializable{
+public class CharacterDetail implements Serializable {
 
 	private int cd_cId;
 	private String cdName;
@@ -11,12 +11,13 @@ public class CharacterDetail implements Serializable{
 	private String cdSubTitle;
 	private String cdDescription;
 	private String cdYoutubeUrl;
-	
-	public CharacterDetail(){}
+	private String cdPayUrl;
+
+	public CharacterDetail() {
+	}
 
 	public CharacterDetail(int cd_cId, String cdName, String cdTop1, String cdTop2, String cdSubTitle,
-			String cdDescription, String cdYoutubeUrl) {
-		super();
+			String cdDescription, String cdYoutubeUrl, String cdPayUrl) {
 		this.cd_cId = cd_cId;
 		this.cdName = cdName;
 		this.cdTop1 = cdTop1;
@@ -24,6 +25,15 @@ public class CharacterDetail implements Serializable{
 		this.cdSubTitle = cdSubTitle;
 		this.cdDescription = cdDescription;
 		this.cdYoutubeUrl = cdYoutubeUrl;
+		this.cdPayUrl = cdPayUrl;
+	}
+
+	public String getCdPayUrl() {
+		return cdPayUrl;
+	}
+
+	public void setCdPayUrl(String cdPayUrl) {
+		this.cdPayUrl = cdPayUrl;
 	}
 
 	public int getCd_cId() {
@@ -88,6 +98,5 @@ public class CharacterDetail implements Serializable{
 				+ ", cdSubTitle=" + cdSubTitle + ", cdDescription=" + cdDescription + ", cdYoutubeUrl=" + cdYoutubeUrl
 				+ "]\n";
 	}
-	
-	
+
 }

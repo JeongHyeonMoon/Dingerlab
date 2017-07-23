@@ -21,14 +21,15 @@
 	<jsp:include page="header.jsp"></jsp:include>
 	
 	<section>
-		<ul id="grid-section">
+		<h3>Offline</h3>
+		<ul class="grid-section">
 			<li>
 				<div class="grid-cell">
 					<input type="hidden" class="yPos" value="37.4922149">
 					<input type="hidden" class="xPos" value="127.020674">
 					<input type="hidden" class="description" value="서울시 서초구 사임당로 23길 43">
 					<h3>Ationery</h3>
-					<img class="market-thumnail" alt="" src="images/market/ationery.JPG">
+					<img class="market-thumnail" alt="" src="images/market/offline/ationery.JPG">
 				</div>
 			</li>
 			<li>
@@ -37,7 +38,22 @@
 					<input type="hidden" class="xPos" value="127.010902">
 					<input type="hidden" class="description" value="서울시 중구 을지로 281 배움터 2층 디자인박물관">
 					<h3>DDP</h3>
-					<img class="market-thumnail" alt="" src="images/market/ddp.JPG">
+					<img class="market-thumnail" alt="" src="images/market/offline/ddp.JPG">
+				</div>
+			</li>
+		</ul>
+	</section>
+	
+	<section>
+		<h3>Online</h3>
+		<ul class="grid-section">
+			<li>
+				<div class="offline-grid" url="http://7hands.net/shop/226">
+					<input type="hidden" class="yPos" value="37.4922149">
+					<input type="hidden" class="xPos" value="127.020674">
+					<input type="hidden" class="description" value="서울시 서초구 사임당로 23길 43">
+					<h3>7hands</h3>
+					<img class="market-thumnail" alt="" src="images/market/online/7hands.png">
 				</div>
 			</li>
 		</ul>

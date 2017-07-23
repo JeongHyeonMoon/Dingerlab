@@ -57,7 +57,7 @@
 					
 				</div>
 				
-				<a href="#"><b>구매하기</b></a>
+				<a href="#" id="payUrl"><b>구매하기</b></a>
 				
 				<div id="description-container">
 					<span class="cdName">딩고 #4. 아르세</span><br>

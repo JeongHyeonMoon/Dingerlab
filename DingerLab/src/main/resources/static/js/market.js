@@ -1,7 +1,5 @@
 $(document).ready(function(){
 	
-	console.log('x');
-	
 	$('#modal').click(function(event){
 		event.stopPropagation();
 		$('#modal').fadeOut('fast',function(){});
@@ -26,6 +24,11 @@ $(document).ready(function(){
 		$('#modal').fadeIn('slow', function(){
 			googleMapInit(yPos*1, xPos*1, title);
 		});
+	});
+	
+	$('.offline-grid').click(function(){
+		var url = $(this).attr('url');
+		window.open(url,'');
 	});
 //	
 });

@@ -2,8 +2,7 @@
 
 body,html{
 	width : 100%;
-	height : 100%;
-	overflow-y: hidden;
+	height : auto;
 }
 
 header{
@@ -52,12 +51,12 @@ section{
 	padding-top : 180px;
 }
 
-#grid-section{
+.grid-section{
 	width : 100%;
 	height : auto;
 }
 
-#grid-section>li{
+.grid-section>li{
 	width : calc(100%/3.2);
 	height : auto;
 	
@@ -66,10 +65,16 @@ section{
 	margin-bottom : 30px;
 }
 
-.grid-cell{
+.grid-cell,
+.offline-grid{
 	width : 80%;
 	height : auto;
 	margin : 0 auto;
+}
+
+.grid-cell:HOVER,
+.offline-grid:HOVER{
+	cursor : pointer;
 }
 
 h3{
@@ -160,9 +165,8 @@ h3{
 }
 
 
-footer{
-	position : absolute;
-	bottom : 0;
+h3 {
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
 }
-
-
