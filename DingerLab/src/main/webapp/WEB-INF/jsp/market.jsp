@@ -48,7 +48,7 @@
 		<h3>Online</h3>
 		<ul class="grid-section">
 			<li>
-				<div class="offline-grid" url="http://7hands.net/shop/226">
+				<div class="offline-grid" url="http://handion.com/mshop?m=196">
 					<input type="hidden" class="yPos" value="37.4922149">
 					<input type="hidden" class="xPos" value="127.020674">
 					<input type="hidden" class="description" value="서울시 서초구 사임당로 23길 43">
